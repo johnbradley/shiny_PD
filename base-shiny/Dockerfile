@@ -1,4 +1,4 @@
-FROM ghcr.io/rocker-org/shiny-verse:4.3.0
+FROM rocker/shiny-verse:4.3.0
 
 RUN apt-get update
 RUN apt-get install build-essential libgl1-mesa-dev libglu1-mesa-dev libv8-dev libglpk-dev libbz2-dev liblzma-dev -y
