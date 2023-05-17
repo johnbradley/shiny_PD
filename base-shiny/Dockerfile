@@ -1,5 +1,4 @@
-FROM ghcr.io/rocker-org/shiny-verse@sha256:15aaa7b4120e76e73cd60f35e244a185113e0eec64fbd922ba522e6a08e46bc0
-
+FROM ghcr.io/rocker-org/shiny-verse@sha256:fc3730798dd028e00ceb54f94679b2f923f76ff23665a96528997ae85e38ad35
 RUN apt-get update
 RUN apt-get install build-essential libgl1-mesa-dev libglu1-mesa-dev libv8-dev libglpk-dev libbz2-dev liblzma-dev -y
 
